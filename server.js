@@ -7,7 +7,7 @@ const app = express();
 //App Configuration
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-
+app.use(express.static(__dirname + '/static/'))
 
 //Pages
 app.get('/', (req, res) => {
