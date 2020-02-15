@@ -9,7 +9,7 @@ app.set('view engine', 'handlebars');
 
 
 app.get('/', (req, res) => {
-    res.send('Hello');
+    res.render('home', {title: 'Home'});
 })
 
 
