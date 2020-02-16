@@ -1,0 +1,75 @@
+main {
+    margin-top: 20vh;
+}
+
+form {
+    padding-top: 5vh;
+    vertical-align: middle;
+    min-height: 300px;
+    height: 45vh;
+    display: inline-block;
+    width: 35vw;
+    margin: auto auto;
+    background-color: white;
+    border: 1px solid rgba(59, 59, 59, 0.267);
+    border-radius: 8px;
+}
+
+
+form, .nameField, .pwdField {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameField, .pwdField, .loginBtn{
+    margin: 3vh 4vw;
+}
+
+.loginBtn {
+    display: inline-block;
+    width: 5vw;
+    min-width: 100px;
+    margin: 3vh auto;
+    text-align: center;
+}
+
+input:hover {
+    background-color: #f7faff;
+}
+
+
+label {
+    font-size: 0.85em;
+}
+
+input[type="text"],input[type="password"] {
+    border-radius: 2px;
+    border-width: 1px;
+    height: 30px;
+    font-weight: 400;
+    color: #222222;
+    padding-left: 10px;
+}
+input[type="submit"] {
+    border-radius: 2px;
+    border-width: 1px;
+    height: 30px;
+}
+
+input[type="submit"]:active {
+    background-color: #f7faff;
+    box-shadow: #f7faff;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    font-size: 0.8em;
+    background: none;
+    background-color: #cea0ff;
+    opacity: 0.7;
+	color: inherit;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}

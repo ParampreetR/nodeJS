@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/static/'))
 
 //Pages
 app.get('/', (req, res) => {
-    res.render('home', {title: 'Home'});
+    res.render('home', {title: 'Login', style: 'login.css'});
 })
 
 

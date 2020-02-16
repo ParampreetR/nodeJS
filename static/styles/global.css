@@ -1,3 +1,14 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
 h1 {
     margin: 0px 0px;
 }
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#ffffff, #d3c2e5);
+}
+
