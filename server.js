@@ -9,7 +9,7 @@ app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 app.use(express.static(__dirname + '/static/'))
 app.use(require('body-parser').json())
-app.use(require('body-parser').urlencoded({extended: true}))
+app.use(require('body-parser').urlencoded({extended: false}))
 app.use(require('cookie-parser')('8yncr8982he8uhw87q28mfrh98dhqu'))
 
 
@@ -35,6 +35,11 @@ app.post('/', (req, res) => {
         res.send('Error')
     }
 })
+
+app.get('/asc', (req, res) => {
+    res.render('asc', {layout: 'asclayout', style: 'as.css'})
+})
+
 
 app.listen(port, () => {
     console.log('Server Ready')
