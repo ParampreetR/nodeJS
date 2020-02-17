@@ -62,3 +62,24 @@ main {
     background-image: linear-gradient( #ffffff 0%, #962714b6 2%, #ffffff 20%);
     min-height: 100vh;
 }
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .topLogo {
+        width: 100vw;
+        max-width: 350px;
+    }
+
+    .lowerNavButtons {
+        margin-top: 1vh;
+    }    
+
+    .hiddenInfo {
+        display: none;
+    }
+}
