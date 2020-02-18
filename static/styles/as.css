@@ -51,16 +51,19 @@ a {
     height: 25px;
     width: 100px;
     margin: 0px 1vw;
+    box-shadow: 2px 5px #fdd8d1b6;
 }
 
 .lowerNavButtons:hover {
     background-color: #ff8b76;
     border-color: #ff8b76;
+    box-shadow: 0px 0px;
 }
 
 main {
     background-image: linear-gradient( #ffffff 0%, #962714b6 2%, #ffffff 20%);
     min-height: 100vh;
+    
 }
 
 
@@ -77,6 +80,7 @@ main {
 
     .lowerNavButtons {
         margin-top: 1vh;
+        
     }    
 
     .hiddenInfo {

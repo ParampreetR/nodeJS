@@ -4,9 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>AS Collage</title>
-        
+        <link href="styles/as.css" type="text/css" rel="stylesheet">
+        <script src="scripts/jquery.min.js"></script>
+        {{#if style}}
             <link href="styles/{{style}}" type="text/css" rel="stylesheet">
-        
+        {{/if}}
     </head>
     <body>
         <header>
@@ -29,17 +31,6 @@
                     <a href="#" class="lowerNavButtons">Others</a>
                 </div>
             </nav>
-
-
-
-
-
-
-
-
-
-
-
         </header>
         <main>
             {{{body}}}

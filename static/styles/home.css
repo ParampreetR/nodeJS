@@ -1,0 +1,21 @@
+* {
+    overflow-x: hidden;
+}
+
+.imgToSlide {
+    position: relative;
+    right: 0px;
+    width: 30vw;
+    transition: all 0.9s ease-in-out;
+}
+
+.imageSlider {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    transition: 0.9s;
+}
+
+.image {
+    transition: 0.9s;
+}

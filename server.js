@@ -37,7 +37,7 @@ app.post('/', (req, res) => {
 })
 
 app.get('/asc', (req, res) => {
-    res.render('asc', {layout: 'asclayout', style: 'as.css'})
+    res.render('asc', {layout: 'asclayout', style: 'home.css'})
 })
 
 
